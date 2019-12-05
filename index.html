@@ -1,0 +1,77 @@
+<html><head>
+    <title>accurate snow day calculator</title>
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        body {
+            background-color: #DBDBDB ;
+            background-image: radial-gradient(rgb(219,219,219),rgb(188,188,188));
+            background-size: 200vw 200vh;
+            background-position: 0 0;
+        }
+        div#floating {
+            font-family: sans-serif;
+            letter-spacing: 2px;
+            font-size: 20px;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px #000000;
+        }
+        a {
+            color: white;
+        }
+        div#floating {
+            position:;
+            bottom:px;
+            right: 10px;
+            text-align: ;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+        div#other {
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+            
+            display: flex;
+            flex-direction: column;
+            color: white;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+            font-size: 15px;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px #000000;
+        }
+    </style>
+</head>
+<body>
+
+<div id="floating">
+    <div class="float-item" style="font-size:3em">Accurate Snow Day Calculator</div>
+    
+    <hr>
+   
+	<Label>ZIP Code:</Label><input type="text" style="width: 100px;" pattern="[0-9]{5}"/>
+    <hr>
+    
+    <Label>Snow days this year:</Label><input type="text" style="width: 100px;" pattern="[0-9]{5}"/>
+    
+    <hr>
+    <Label>Type of School:</Label><select style="width: 100px;">
+    <option value="" selected=""></option>
+  <option>Public</option>
+  <option>Urban Public</option>
+  <option>Rural Public</option>
+  <option>Private/Prep</option>
+  <option>Boarding</option>
+</select>
+    <hr>
+    
+    <a href="calculated.html" style="font-size:2em" class="float-item">Calculate</a>
+
+</div>
+
+<div id="other">
+<a href="https://www.github.com/qghop" target="_blank" class="float-item" bottom="2px">find me on github</a>
+</div>
+
+</body></html>
